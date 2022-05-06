@@ -1,0 +1,29 @@
+{
+  "name": "202204-w04-jon-pittaluga",
+  "version": "1.0.0",
+  "description": "1. Goals of the challenge 2. Requirements 3. Restrictions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonPittaluga/202204-W04-Jon-Pittaluga.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonPittaluga/202204-W04-Jon-Pittaluga/issues"
+  },
+  "homepage": "https://github.com/JonPittaluga/202204-W04-Jon-Pittaluga#readme",
+  "prettier": {
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
