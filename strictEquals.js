@@ -1,13 +1,13 @@
 /* eslint-disable no-unused-vars */
 
 export function strictEquals(a, b) {
+  // NaN exceptions
   if (Number.isNaN(a) && Number.isNaN(b)) {
-    // NaN exceptions
     return false;
   }
 
+  // 0 and -0 exceptions
   if (Object.is(0, b) || Object.is(-0, b)) {
-    // 0 and -0 exceptions
     return true;
   }
 
