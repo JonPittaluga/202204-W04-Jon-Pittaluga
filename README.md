@@ -36,8 +36,8 @@ Given the `strictEquals` function when `a` and `b` are compared the result will 
 
 ## Other requirements
 
-- Use eslint
-- Use modules
-- Import strictEquals.js file to app.js
-- HTML is not necessary
+- [x] Use eslint
+- [x] Use ES6 modules
+  - [x] Import strictEquals.js file to app.js
+- [x] HTML is optional (I'll use it to test module import with ES6 modules)
 - Add some sort of testing to validate that all the cases described above pass the test
