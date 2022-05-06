@@ -30,6 +30,8 @@ export function strictEquals(a, b) {
   } else return false;
 }
 
+/* Moved to the jest test file
+
 console.log('strictEquals(1, 1) > true', strictEquals(1, 1)); // true
 console.log('strictEquals(NaN, NaN) > false', strictEquals(NaN, NaN)); // false
 console.log('strictEquals(0, -0) > true', strictEquals(0, -0)); // true
@@ -52,3 +54,5 @@ console.log(
   "strictEquals('Alejandro CL', 'Alejandro M') > false",
   strictEquals('Alejandro CL', 'Alejandro M')
 ); // false
+
+*/
